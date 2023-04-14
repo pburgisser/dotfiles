@@ -1,5 +1,5 @@
 helm(){
-  docker run -it --rm \
+  docker run --rm \
     -v "${HOME}/.kube:/root/.kube:ro" \
     -v "${HOME}/.gcloud:/root/.config/gcloud:ro" \
     -v "${HOME}/.helm:/root/.helm" \
