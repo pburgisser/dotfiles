@@ -1,0 +1,8 @@
+[http]
+        cookiefile = /home/pburgisser/.gitcookies
+[user]
+        email = philippe@burgisser.ch
+        name = Philippe Burgisser
+        signingkey = 13CC12D9565C3DE4
+[commit]
+        gpgsign = true
